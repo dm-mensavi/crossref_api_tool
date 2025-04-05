@@ -1,0 +1,58 @@
+/* Custom theme for Rofi in the Crossref API Tool with larger elements */
+configuration {
+    font: "DejaVu Sans 16";
+    show-icons: false;
+    width: 60%;
+    lines: 10;
+    scroll-enabled: true;
+}
+
+* {
+    background-color: #1E1E2E;
+    text-color: #CDD6F4;
+    border-color: #89B4FA;
+    selection-background-color: #45475A;
+    selection-text-color: #F5E0DC;
+    urgent-background-color: #F38BA8;
+    urgent-text-color: #1E1E2E;
+}
+
+window {
+    border: 3px;
+    border-radius: 12px;
+    padding: 15px;
+    background-color: #1E1E2E;
+}
+
+mainbox {
+    padding: 10px;
+}
+
+inputbar {
+    background-color: #313244;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+prompt {
+    text-color: #89B4FA;
+}
+
+entry {
+    text-color: #CDD6F4;
+}
+
+listview {
+    padding: 10px;
+    background-color: #1E1E2E;
+}
+
+element {
+    padding: 8px;
+    border-radius: 6px;
+}
+
+element selected {
+    background-color: #45475A;
+    text-color: #F5E0DC;
+}
